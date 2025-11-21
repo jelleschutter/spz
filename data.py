@@ -40,8 +40,8 @@ df_influenza = get_sentinella_data('https://idd.bag.admin.ch/api/v1/export/lates
 # last 10 years
 # df_influenza = df_influenza[df_influenza['date'] >= datetime.now() - pd.DateOffset(years=10)]
 
-df_influenza.set_index('date')[['incValue']].to_csv('data/influenza_cases_ch.csv', index=True)
-# df_influenza.set_index('date').to_csv('data/influenza_cases_ch.csv', index=True)
+df_influenza.set_index('date')[['incValue']].to_csv('data/influenza_cases_ch_newest.csv', index=True)
+# df_influenza.set_index('date').to_csv('data/influenza_cases_ch_newest.csv', index=True)
 
 # df_covid_19 = get_sentinella_data('https://idd.bag.admin.ch/api/v1/export/latest/COVID19_sentinella/csv')
 
