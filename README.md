@@ -1,7 +1,5 @@
 # SPZ Open Mini-Challenge
-## Authors
-- Sahan Hatemo
-- Jelle Schutter 
+This project analyzes influenza-like illness (ILI) data from Switzerland, focusing on time series decomposition and forecasting using various models. The notebook includes data loading, preprocessing, exploratory data analysis, seasonal decomposition, and model evaluation. The main analysis can be found [here](spz.ipynb).
 
 ## Installation
 Make sure you have Python 3.8 or higher installed. Then, create a virtual environment and install the required packages:
@@ -23,8 +21,9 @@ In case you want to download new data, you can run the `data.py` script inside t
 python data.py
 ```
 
-## Description
-This project analyzes influenza-like illness (ILI) data from Switzerland, focusing on time series decomposition and forecasting using various models. The notebook includes data loading, preprocessing, exploratory data analysis, seasonal decomposition, and model evaluation.
+## Authors
+- Sahan Hatemo
+- Jelle Schutter 
 
 ## Data Source
 The ILI data is sourced from the Swiss Federal Office of Public Health (FOPH) and can be found at: [Infectious Diseases Dashboard (IDD)](https://www.idd.bag.admin.ch/)
