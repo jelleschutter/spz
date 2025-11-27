@@ -4,7 +4,7 @@
 - Jelle Schutter 
 
 ## Installation
-
+Make sure you have Python 3.8 or higher installed. Then, create a virtual environment and install the required packages:
 ```bash
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
@@ -17,6 +17,11 @@ Directly run the Jupyter Notebook in your editor or use the command line:
 jupyter notebook spz.ipynb
 ```
 If you don't need to run the notebook, you can also view the rendered version directly on GitHub at: [spz.ipynb](spz.ipynb)
+
+In case you want to download new data, you can run the `data.py` script inside the virtual environment:
+```bash
+python data.py
+```
 
 ## Description
 This project analyzes influenza-like illness (ILI) data from Switzerland, focusing on time series decomposition and forecasting using various models. The notebook includes data loading, preprocessing, exploratory data analysis, seasonal decomposition, and model evaluation.
